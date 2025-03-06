@@ -1,0 +1,14 @@
+uvicorn
+fastapi
+SQLAlchemy
+setuptools
+numpy
+pandas
+nltk
+lightgbm
+matplotlib
+mlflow
+pylint
+flake8
+black
+psycopg2-binary

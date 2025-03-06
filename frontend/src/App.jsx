@@ -7,6 +7,8 @@ import About from './pages/About'
 import Appointments from './pages/Appointments'
 import My_Profile from './pages/My_Profile'
 import Navbar from './components/Navbar'
+import Ai from './pages/Ai'
+import Prediction from './pages/Prediction'
 
 function App() {
   return (
@@ -18,9 +20,11 @@ function App() {
         <Route path = '/doctors/:speciality' element={<Doctors/>}/>
         <Route path = '/login' element={<Login/>}/>
         <Route path = '/about' element={<About/>}/>
-        <Route path ='appointments' element={<Appointments/>}/>
-        <Route path ='appointments:docId' element={<Appointments/>}/>
-        <Route path ='profile' element = {<My_Profile/>}/>
+        <Route path ='/appointments' element={<Appointments/>}/>
+        <Route path ='/appointments:docId' element={<Appointments/>}/>
+        <Route path='/ai' element={<Ai/>} />
+        <Route path ='/profile' element = {<My_Profile/>}/>
+        <Route path='/prediction' element={<Prediction/>} />
       </Routes>
     </div>
   )
